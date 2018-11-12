@@ -1,6 +1,8 @@
 # cpp-result
 An alternative implementation for std::optional with more features. You can just download the header file and include it in your project.
 
+**This is an Afternoon Project -quick small projects that make life a bit easier-**
+
 ## Quick Documentation
 The `opt::result<T>` class can contain either a value of type `T` or an error. An error instance signals not only the absence of a value, but also the reason for the error if one exists. To create a result you need to use `of()` or `empty()`. For example, `opt::of(10)` will create an integer result which carries the value of 10. On the other hand, `opt::empty("invalid integer operation")` creates an empty result with the specified error message.
 
